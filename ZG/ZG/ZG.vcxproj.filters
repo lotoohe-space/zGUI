@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ZG">
+      <UniqueIdentifier>{8f5422ea-8cb8-4dd8-b0e7-ddb01f8b1149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ZG">
+      <UniqueIdentifier>{7498195b-5633-4d15-9f2e-66c4cfb72e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ZG\interface">
+      <UniqueIdentifier>{257d50ff-3a51-44b9-a7ab-de9d33f33106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ZG\interface">
+      <UniqueIdentifier>{1e29ad78-abee-4b83-9c10-f3ef24b8a5ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZRect.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZObject.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGD.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTypes.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGraphical.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPaint.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPanel.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZWindows.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMsgDispose.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsEventInterface.h">
+      <Filter>Header Files\ZG\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFontInterface.h">
+      <Filter>Header Files\ZG\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFont0.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLable.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZButton.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+    <ClInclude Include="ZControlInterface.h">
+      <Filter>Header Files\ZG\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ZRadioButton.h">
+      <Filter>Header Files\ZG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZObject.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZRect.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGraphical.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZPaint.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZPanel.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZWindows.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMsgDispose.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFont0.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFontInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLable.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZButton.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZRadioButton.cpp">
+      <Filter>Source Files\ZG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZG.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ZG.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ZG.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
